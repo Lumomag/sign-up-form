@@ -46,6 +46,8 @@ body {
 }
 
 .right-container{
+  display: flex;
+  justify-content: flex-start;
   background-color: #f0f0e4;
   height: 100%;
   width: 70%;
@@ -59,4 +61,40 @@ body {
 
 .pic-author a {
   color: #fff;
+}
+
+.right-container .container{
+  width: 80%;
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
+
+.trip-title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 4rem;
+}
+
+.form-title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #494949;
+  margin-bottom: 1.4rem;
+}
+
+form{
+  box-shadow: 0px 0px 6px 3px rgba(194,186,194,1);
+  padding: 1rem;
+}
+
+.name-container{
+  display: flex;
+  gap: 8rem;
+  margin-bottom: 2rem;
+}
+
+.password-container{
+  display: flex;
+  gap: 8rem;
+  margin-bottom: 1rem;
 }
